@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {  
+    background-image:linear-gradient(135deg,#e094f7,#8cf08c,#a587e9,#f58b8b,#9d86e6,#9de98a, #f599bc,#e62b4a);
+    background-size: 500%;
+    background-attachment:fixed;
+    animation: fanimado 10s infinite;
+    }
+@keyframes fanimado{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+header h1{
+  
+    text-align: center;
+    font-family:"Fredoka One", cursive ;
+    font-size:90px;
+    padding:auto;
+    margin: 20px 1px;
+    background-image:linear-gradient(135deg,#7400f8,#26c7b9,#600485,#00f8e3);
+    background-size: 500%;
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: texto 6s infinite;
+    
+}
+@keyframes texto{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 100%;}
+}
+    
+.boton1{
+    width: max-content;
+    background-color:#fc8f8f;
+    border:3px solid #7961e6 ;
+    border-radius: 15px;
+    color:#fff;
+    padding:12px 30px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:25px;
+    background-position-x: center;
+    cursor:pointer;
+    box-shadow:#600485 0 8px 16px 0;
+
+    }
+.boton1:hover{
+    background-color:#00f8e3;
+    color:#000 ;
+    border:3px solid #600485 ;
+    box-shadow:#00f8e3 0 16px 32px 0
+    }
+div.imagenes {
+    margin: auto; 
+    width: max-content;
+}
+
+
